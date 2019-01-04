@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 9.0\nBuild version 9A235",
+  "commitish" : "1.6.0",
+  "iOS" : [
+    {
+      "hash" : "8ad5c71f5db3bde56eb91b46574dcfdb11fee71642bd7ee62bc8f4c71ae9de4f",
+      "name" : "EasyPeasy"
+    }
+  ]
+}

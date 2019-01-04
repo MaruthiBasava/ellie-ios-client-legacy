@@ -1,0 +1,4 @@
+github "keithito/SimpleAnimation" "0.3.2"
+github "leonbreedt/FavIcon" "2.0.0"
+github "nakiostudio/EasyPeasy" "1.6.0"
+github "sochalewski/UIImageViewAlignedSwift" "0.5.0"

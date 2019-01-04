@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 9.0\nBuild version 9A235",
+  "commitish" : "2.0.0",
+  "iOS" : [
+    {
+      "hash" : "51d5612b5d81854355954919d892899f91000fb6f242e546ae64fb131102204d",
+      "name" : "FavIcon"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module UIImageViewAlignedSwift {
+  umbrella header "UIImageViewAlignedSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module UIImageViewAlignedSwift.Swift {
+    header "UIImageViewAlignedSwift-Swift.h"
+    requires objc
+}

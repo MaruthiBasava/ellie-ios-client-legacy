@@ -1,0 +1,4 @@
+framework module SimpleAnimation {
+    header "SimpleAnimation-Swift.h"
+    requires objc
+}

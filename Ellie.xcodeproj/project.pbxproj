@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481FA2721F8EB40A008321F5 /* EllieWebsitePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FA2711F8EB40A008321F5 /* EllieWebsitePreviewViewController.swift */; };
+		481FA2741F8FD7E5008321F5 /* EllieBrowserFileDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FA2731F8FD7E5008321F5 /* EllieBrowserFileDataModel.swift */; };
+		481FA2781F91CF5E008321F5 /* EllieBrowserFileDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FA2771F91CF5E008321F5 /* EllieBrowserFileDataManager.swift */; };
+		4823D18C1EA484970007174C /* EllieSectionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4823D18B1EA484970007174C /* EllieSectionDataModel.swift */; };
+		482544931F93C8CD00374A4E /* UIImageViewAlignedSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482544921F93C8CC00374A4E /* UIImageViewAlignedSwift.framework */; };
+		482544941F93C8CD00374A4E /* UIImageViewAlignedSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 482544921F93C8CC00374A4E /* UIImageViewAlignedSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		482DCF651FD31C8300FBA7C2 /* EllieMainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482DCF641FD31C8300FBA7C2 /* EllieMainScreenViewController.swift */; };
+		482FAD4D1F1452BE003FB393 /* EllieExperimentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482FAD4C1F1452BE003FB393 /* EllieExperimentalViewController.swift */; };
+		482FAD511F1658F0003FB393 /* EllieCreateSectionModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482FAD501F1658F0003FB393 /* EllieCreateSectionModalView.swift */; };
+		483169761F67614200B1F4F3 /* EllieBrowserUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483169751F67614200B1F4F3 /* EllieBrowserUtilities.swift */; };
+		483169781F6768F100B1F4F3 /* FavIcon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 483169771F6768F100B1F4F3 /* FavIcon.framework */; };
+		4831697A1F67690B00B1F4F3 /* FavIcon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 483169771F6768F100B1F4F3 /* FavIcon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4831697F1F68946E00B1F4F3 /* EllieCreateBookmarkPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831697E1F68946E00B1F4F3 /* EllieCreateBookmarkPopupView.swift */; };
+		4834FE8B1F658B17003C1585 /* EllieBrowserBookmarkHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834FE8A1F658B17003C1585 /* EllieBrowserBookmarkHeaderCollectionViewCell.swift */; };
+		4834FE8E1F659844003C1585 /* EllieBookmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834FE8D1F659844003C1585 /* EllieBookmarkModel.swift */; };
+		4834FE901F6598F4003C1585 /* EllieBookmarkHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834FE8F1F6598F4003C1585 /* EllieBookmarkHeaderModel.swift */; };
+		4834FE921F65D132003C1585 /* EllieBookmarkDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834FE911F65D132003C1585 /* EllieBookmarkDataManager.swift */; };
+		4834FE941F66FFC5003C1585 /* EllieBookmarkDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834FE931F66FFC5003C1585 /* EllieBookmarkDataModel.swift */; };
+		48395DB91F648CDF0045B5A8 /* EllieBrowserBookmarkedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48395DB81F648CDF0045B5A8 /* EllieBrowserBookmarkedCollectionViewCell.swift */; };
+		48395DBB1F64BD720045B5A8 /* EllieBrowserBookmarkCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48395DBA1F64BD720045B5A8 /* EllieBrowserBookmarkCollectionView.swift */; };
+		483E7EE41F5C477900435180 /* EllieBrowserBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E7EE31F5C477900435180 /* EllieBrowserBottomBar.swift */; };
+		483E7EE61F5C6D4C00435180 /* EllieBrowserBottomTaskBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E7EE51F5C6D4C00435180 /* EllieBrowserBottomTaskBar.swift */; };
+		4868F5971F1076E000A53FC1 /* EllieScrollableModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868F5961F1076E000A53FC1 /* EllieScrollableModalView.swift */; };
+		48854CD51E9EB92800202E21 /* EllieFootbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CD41E9EB92800202E21 /* EllieFootbar.swift */; };
+		48854CD71E9EBD8600202E21 /* EllieCircleUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CD61E9EBD8600202E21 /* EllieCircleUIButton.swift */; };
+		48854CD91E9F008F00202E21 /* EllieTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CD81E9F008E00202E21 /* EllieTopbar.swift */; };
+		48854CDD1E9FD7C700202E21 /* EllieSectionSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CDC1E9FD7C700202E21 /* EllieSectionSliderView.swift */; };
+		48854CDF1E9FF53E00202E21 /* EllieMaterialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CDE1E9FF53E00202E21 /* EllieMaterialCollectionView.swift */; };
+		48854CE11E9FF56300202E21 /* EllieConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CE01E9FF56300202E21 /* EllieConstants.swift */; };
+		48854CE31E9FF94200202E21 /* EllieMaterialSelectionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CE21E9FF94200202E21 /* EllieMaterialSelectionTableView.swift */; };
+		48854CE51EA0293800202E21 /* EllieExpandedMaterialSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CE41EA0293800202E21 /* EllieExpandedMaterialSelectionViewController.swift */; };
+		48854CE71EA03A5D00202E21 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CE61EA03A5D00202E21 /* ExampleViewController.swift */; };
+		48854CE91EA069D900202E21 /* EllieImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CE81EA069D900202E21 /* EllieImageButton.swift */; };
+		48854CEB1EA14AC600202E21 /* EllieSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CEA1EA14AC600202E21 /* EllieSectionViewController.swift */; };
+		48854CED1EA14AD500202E21 /* EllieExpandedSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CEC1EA14AD500202E21 /* EllieExpandedSectionViewController.swift */; };
+		48854CEF1EA14B1900202E21 /* EllieSectionSelectionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CEE1EA14B1900202E21 /* EllieSectionSelectionTableView.swift */; };
+		48854CF21EA159CD00202E21 /* EllieSectionRowDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CF11EA159CD00202E21 /* EllieSectionRowDataModel.swift */; };
+		48854CF41EA1606C00202E21 /* EllieDueDateBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CF31EA1606C00202E21 /* EllieDueDateBar.swift */; };
+		48854CF61EA1658400202E21 /* EllieSectionSelectionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48854CF51EA1658400202E21 /* EllieSectionSelectionCollectionView.swift */; };
+		48948EF11F3F974C00F6473C /* EllieWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48948EF01F3F974C00F6473C /* EllieWaveView.swift */; };
+		48C7130A1F6DECB400282B1A /* EllieBrowserBookmarkPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C713091F6DECB400282B1A /* EllieBrowserBookmarkPreview.swift */; };
+		48E246DB1F5A0A2A00D1B994 /* EllieBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E246DA1F5A0A2A00D1B994 /* EllieBrowserViewController.swift */; };
+		48E246DD1F5A0B5300D1B994 /* EllieViewControllerBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E246DC1F5A0B5300D1B994 /* EllieViewControllerBanner.swift */; };
+		48E246E01F5A0C4600D1B994 /* EllieViewControllerClosableBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E246DF1F5A0C4600D1B994 /* EllieViewControllerClosableBanner.swift */; };
+		48E246E21F5A174E00D1B994 /* EllieBrowserSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E246E11F5A174E00D1B994 /* EllieBrowserSearchView.swift */; };
+		48E300071E9C2EA900A8B140 /* EllieCloseablePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFF31E9C2EA900A8B140 /* EllieCloseablePopupView.swift */; };
+		48E300081E9C2EA900A8B140 /* EllieCornerRoundedUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFF41E9C2EA900A8B140 /* EllieCornerRoundedUIButton.swift */; };
+		48E300091E9C2EA900A8B140 /* EllieCreateHeaderPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFF51E9C2EA900A8B140 /* EllieCreateHeaderPopupView.swift */; };
+		48E3000A1E9C2EA900A8B140 /* EllieCreateSectionPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFF61E9C2EA900A8B140 /* EllieCreateSectionPopupView.swift */; };
+		48E3000B1E9C2EA900A8B140 /* EllieDestressedVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFF71E9C2EA900A8B140 /* EllieDestressedVideoView.swift */; };
+		48E3000C1E9C2EA900A8B140 /* EllieMotivationVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFF81E9C2EA900A8B140 /* EllieMotivationVideoView.swift */; };
+		48E3000D1E9C2EA900A8B140 /* ElliePopupYoutubeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFF91E9C2EA900A8B140 /* ElliePopupYoutubeVideoViewController.swift */; };
+		48E3000E1E9C2EA900A8B140 /* EllieRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFFA1E9C2EA900A8B140 /* EllieRoundedView.swift */; };
+		48E3000F1E9C2EA900A8B140 /* EllieSectionPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFFB1E9C2EA900A8B140 /* EllieSectionPreviewView.swift */; };
+		48E300101E9C2EA900A8B140 /* EllieSleepyVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFFC1E9C2EA900A8B140 /* EllieSleepyVideoView.swift */; };
+		48E300111E9C2EA900A8B140 /* EllieStudyTipsVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFFD1E9C2EA900A8B140 /* EllieStudyTipsVideoView.swift */; };
+		48E300121E9C2EA900A8B140 /* EllieYoutubeVideoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFFE1E9C2EA900A8B140 /* EllieYoutubeVideoPopupView.swift */; };
+		48E300131E9C2EA900A8B140 /* EllieYoutubeVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFFF1E9C2EA900A8B140 /* EllieYoutubeVideoView.swift */; };
+		48E300141E9C2EA900A8B140 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300001E9C2EA900A8B140 /* HomeViewController.swift */; };
+		48E300151E9C2EA900A8B140 /* WideExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300011E9C2EA900A8B140 /* WideExtensions.swift */; };
+		48E300161E9C2EA900A8B140 /* WideFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300021E9C2EA900A8B140 /* WideFonts.swift */; };
+		48E300171E9C2EA900A8B140 /* WideImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300031E9C2EA900A8B140 /* WideImages.swift */; };
+		48E300181E9C2EA900A8B140 /* EllieNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300041E9C2EA900A8B140 /* EllieNavigationViewController.swift */; };
+		48E300191E9C2EA900A8B140 /* WidePopOutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300051E9C2EA900A8B140 /* WidePopOutMenu.swift */; };
+		48E3001A1E9C2EA900A8B140 /* WideRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300061E9C2EA900A8B140 /* WideRoundedView.swift */; };
+		48E300321E9C63A800A8B140 /* EllieSectionHeaderSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300311E9C63A800A8B140 /* EllieSectionHeaderSelectionView.swift */; };
+		48E300341E9D506000A8B140 /* EllieHeaderSelectionPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300331E9D506000A8B140 /* EllieHeaderSelectionPreviewView.swift */; };
+		48E300381E9D93D800A8B140 /* EllieSectionCreateFirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300371E9D93D800A8B140 /* EllieSectionCreateFirstPage.swift */; };
+		48E3003A1E9D93EC00A8B140 /* EllieSectionCreationSecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E300391E9D93EC00A8B140 /* EllieSectionCreationSecondPage.swift */; };
+		48E3FFB91E9C282700A8B140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E3FFB81E9C282700A8B140 /* AppDelegate.swift */; };
+		48E3FFC01E9C282700A8B140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFBF1E9C282700A8B140 /* Assets.xcassets */; };
+		48E3FFC31E9C282700A8B140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFC11E9C282700A8B140 /* LaunchScreen.storyboard */; };
+		48E3FFE01E9C294200A8B140 /* GlacialIndifference-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFD91E9C294200A8B140 /* GlacialIndifference-Bold.otf */; };
+		48E3FFE11E9C294200A8B140 /* GlacialIndifference-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFDA1E9C294200A8B140 /* GlacialIndifference-Regular.otf */; };
+		48E3FFE21E9C294200A8B140 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFDB1E9C294200A8B140 /* JosefinSans-Regular.ttf */; };
+		48E3FFE31E9C294200A8B140 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFDC1E9C294200A8B140 /* Montserrat-Bold.otf */; };
+		48E3FFE41E9C294200A8B140 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFDD1E9C294200A8B140 /* Montserrat-Regular.otf */; };
+		48E3FFE51E9C294200A8B140 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFDE1E9C294200A8B140 /* Raleway-Medium.ttf */; };
+		48E3FFE61E9C294200A8B140 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48E3FFDF1E9C294200A8B140 /* Raleway-Regular.ttf */; };
+		48E3FFEA1E9C2C7C00A8B140 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3FFE71E9C2C7C00A8B140 /* EasyPeasy.framework */; };
+		48E3FFEB1E9C2C7C00A8B140 /* EasyPeasy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3FFE71E9C2C7C00A8B140 /* EasyPeasy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48E3FFEC1E9C2C7C00A8B140 /* M13Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3FFE81E9C2C7C00A8B140 /* M13Checkbox.framework */; };
+		48E3FFED1E9C2C7C00A8B140 /* M13Checkbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3FFE81E9C2C7C00A8B140 /* M13Checkbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48E3FFEE1E9C2C7C00A8B140 /* SimpleAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3FFE91E9C2C7C00A8B140 /* SimpleAnimation.framework */; };
+		48E3FFEF1E9C2C7C00A8B140 /* SimpleAnimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48E3FFE91E9C2C7C00A8B140 /* SimpleAnimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48ED90281F5DB3BD003C6679 /* EllieBrowserWebsiteDownloadCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ED90271F5DB3BD003C6679 /* EllieBrowserWebsiteDownloadCollectionView.swift */; };
+		48ED902A1F5E43A3003C6679 /* EllieRoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ED90291F5E43A3003C6679 /* EllieRoundedImageView.swift */; };
+		48ED902C1F5E4822003C6679 /* EllieContentViewBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ED902B1F5E4822003C6679 /* EllieContentViewBanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48E3FFF01E9C2C7C00A8B140 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				48E3FFEF1E9C2C7C00A8B140 /* SimpleAnimation.framework in Embed Frameworks */,
+				482544941F93C8CD00374A4E /* UIImageViewAlignedSwift.framework in Embed Frameworks */,
+				48E3FFEB1E9C2C7C00A8B140 /* EasyPeasy.framework in Embed Frameworks */,
+				48E3FFED1E9C2C7C00A8B140 /* M13Checkbox.framework in Embed Frameworks */,
+				4831697A1F67690B00B1F4F3 /* FavIcon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		481FA2711F8EB40A008321F5 /* EllieWebsitePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieWebsitePreviewViewController.swift; sourceTree = "<group>"; };
+		481FA2731F8FD7E5008321F5 /* EllieBrowserFileDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieBrowserFileDataModel.swift; sourceTree = "<group>"; };
+		481FA2771F91CF5E008321F5 /* EllieBrowserFileDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieBrowserFileDataManager.swift; sourceTree = "<group>"; };
+		4823D18B1EA484970007174C /* EllieSectionDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionDataModel.swift; sourceTree = "<group>"; };
+		482544921F93C8CC00374A4E /* UIImageViewAlignedSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIImageViewAlignedSwift.framework; path = Carthage/Build/iOS/UIImageViewAlignedSwift.framework; sourceTree = "<group>"; };
+		482DCF641FD31C8300FBA7C2 /* EllieMainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllieMainScreenViewController.swift; sourceTree = "<group>"; };
+		482FAD4C1F1452BE003FB393 /* EllieExperimentalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieExperimentalViewController.swift; sourceTree = "<group>"; };
+		482FAD501F1658F0003FB393 /* EllieCreateSectionModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieCreateSectionModalView.swift; sourceTree = "<group>"; };
+		483169751F67614200B1F4F3 /* EllieBrowserUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserUtilities.swift; sourceTree = "<group>"; };
+		483169771F6768F100B1F4F3 /* FavIcon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FavIcon.framework; path = Carthage/Build/iOS/FavIcon.framework; sourceTree = "<group>"; };
+		4831697E1F68946E00B1F4F3 /* EllieCreateBookmarkPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieCreateBookmarkPopupView.swift; sourceTree = "<group>"; };
+		4834FE8A1F658B17003C1585 /* EllieBrowserBookmarkHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserBookmarkHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		4834FE8D1F659844003C1585 /* EllieBookmarkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBookmarkModel.swift; sourceTree = "<group>"; };
+		4834FE8F1F6598F4003C1585 /* EllieBookmarkHeaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBookmarkHeaderModel.swift; sourceTree = "<group>"; };
+		4834FE911F65D132003C1585 /* EllieBookmarkDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBookmarkDataManager.swift; sourceTree = "<group>"; };
+		4834FE931F66FFC5003C1585 /* EllieBookmarkDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBookmarkDataModel.swift; sourceTree = "<group>"; };
+		48395DB81F648CDF0045B5A8 /* EllieBrowserBookmarkedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserBookmarkedCollectionViewCell.swift; sourceTree = "<group>"; };
+		48395DBA1F64BD720045B5A8 /* EllieBrowserBookmarkCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserBookmarkCollectionView.swift; sourceTree = "<group>"; };
+		483E7EE31F5C477900435180 /* EllieBrowserBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserBottomBar.swift; sourceTree = "<group>"; };
+		483E7EE51F5C6D4C00435180 /* EllieBrowserBottomTaskBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserBottomTaskBar.swift; sourceTree = "<group>"; };
+		4868F5961F1076E000A53FC1 /* EllieScrollableModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieScrollableModalView.swift; sourceTree = "<group>"; };
+		48854CD41E9EB92800202E21 /* EllieFootbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieFootbar.swift; sourceTree = "<group>"; };
+		48854CD61E9EBD8600202E21 /* EllieCircleUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieCircleUIButton.swift; sourceTree = "<group>"; };
+		48854CD81E9F008E00202E21 /* EllieTopbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieTopbar.swift; sourceTree = "<group>"; };
+		48854CDC1E9FD7C700202E21 /* EllieSectionSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionSliderView.swift; sourceTree = "<group>"; };
+		48854CDE1E9FF53E00202E21 /* EllieMaterialCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieMaterialCollectionView.swift; sourceTree = "<group>"; };
+		48854CE01E9FF56300202E21 /* EllieConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieConstants.swift; sourceTree = "<group>"; };
+		48854CE21E9FF94200202E21 /* EllieMaterialSelectionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieMaterialSelectionTableView.swift; sourceTree = "<group>"; };
+		48854CE41EA0293800202E21 /* EllieExpandedMaterialSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EllieExpandedMaterialSelectionViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48854CE61EA03A5D00202E21 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ExampleViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48854CE81EA069D900202E21 /* EllieImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieImageButton.swift; sourceTree = "<group>"; };
+		48854CEA1EA14AC600202E21 /* EllieSectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EllieSectionViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48854CEC1EA14AD500202E21 /* EllieExpandedSectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EllieExpandedSectionViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48854CEE1EA14B1900202E21 /* EllieSectionSelectionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionSelectionTableView.swift; sourceTree = "<group>"; };
+		48854CF11EA159CD00202E21 /* EllieSectionRowDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionRowDataModel.swift; sourceTree = "<group>"; };
+		48854CF31EA1606C00202E21 /* EllieDueDateBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieDueDateBar.swift; sourceTree = "<group>"; };
+		48854CF51EA1658400202E21 /* EllieSectionSelectionCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionSelectionCollectionView.swift; sourceTree = "<group>"; };
+		48948EF01F3F974C00F6473C /* EllieWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieWaveView.swift; sourceTree = "<group>"; };
+		48C713091F6DECB400282B1A /* EllieBrowserBookmarkPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserBookmarkPreview.swift; sourceTree = "<group>"; };
+		48E246DA1F5A0A2A00D1B994 /* EllieBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EllieBrowserViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48E246DC1F5A0B5300D1B994 /* EllieViewControllerBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieViewControllerBanner.swift; sourceTree = "<group>"; };
+		48E246DF1F5A0C4600D1B994 /* EllieViewControllerClosableBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieViewControllerClosableBanner.swift; sourceTree = "<group>"; };
+		48E246E11F5A174E00D1B994 /* EllieBrowserSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserSearchView.swift; sourceTree = "<group>"; };
+		48E300001E9C2EA900A8B140 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = HomeViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48E300011E9C2EA900A8B140 /* WideExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WideExtensions.swift; sourceTree = "<group>"; };
+		48E300021E9C2EA900A8B140 /* WideFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WideFonts.swift; sourceTree = "<group>"; };
+		48E300031E9C2EA900A8B140 /* WideImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WideImages.swift; sourceTree = "<group>"; };
+		48E300041E9C2EA900A8B140 /* EllieNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieNavigationViewController.swift; sourceTree = "<group>"; };
+		48E300051E9C2EA900A8B140 /* WidePopOutMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidePopOutMenu.swift; sourceTree = "<group>"; };
+		48E300061E9C2EA900A8B140 /* WideRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WideRoundedView.swift; sourceTree = "<group>"; };
+		48E300311E9C63A800A8B140 /* EllieSectionHeaderSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionHeaderSelectionView.swift; sourceTree = "<group>"; };
+		48E300331E9D506000A8B140 /* EllieHeaderSelectionPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieHeaderSelectionPreviewView.swift; sourceTree = "<group>"; };
+		48E300371E9D93D800A8B140 /* EllieSectionCreateFirstPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionCreateFirstPage.swift; sourceTree = "<group>"; };
+		48E300391E9D93EC00A8B140 /* EllieSectionCreationSecondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionCreationSecondPage.swift; sourceTree = "<group>"; };
+		48E3FFB51E9C282700A8B140 /* Ellie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ellie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E3FFB81E9C282700A8B140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48E3FFBF1E9C282700A8B140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48E3FFC21E9C282700A8B140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48E3FFC41E9C282700A8B140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E3FFD91E9C294200A8B140 /* GlacialIndifference-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GlacialIndifference-Bold.otf"; sourceTree = "<group>"; };
+		48E3FFDA1E9C294200A8B140 /* GlacialIndifference-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GlacialIndifference-Regular.otf"; sourceTree = "<group>"; };
+		48E3FFDB1E9C294200A8B140 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		48E3FFDC1E9C294200A8B140 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		48E3FFDD1E9C294200A8B140 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		48E3FFDE1E9C294200A8B140 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		48E3FFDF1E9C294200A8B140 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		48E3FFE71E9C2C7C00A8B140 /* EasyPeasy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyPeasy.framework; path = Carthage/Build/iOS/EasyPeasy.framework; sourceTree = "<group>"; };
+		48E3FFE81E9C2C7C00A8B140 /* M13Checkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = M13Checkbox.framework; path = Carthage/Build/iOS/M13Checkbox.framework; sourceTree = "<group>"; };
+		48E3FFE91E9C2C7C00A8B140 /* SimpleAnimation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleAnimation.framework; path = Carthage/Build/iOS/SimpleAnimation.framework; sourceTree = "<group>"; };
+		48E3FFF31E9C2EA900A8B140 /* EllieCloseablePopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EllieCloseablePopupView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48E3FFF41E9C2EA900A8B140 /* EllieCornerRoundedUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieCornerRoundedUIButton.swift; sourceTree = "<group>"; };
+		48E3FFF51E9C2EA900A8B140 /* EllieCreateHeaderPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieCreateHeaderPopupView.swift; sourceTree = "<group>"; };
+		48E3FFF61E9C2EA900A8B140 /* EllieCreateSectionPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieCreateSectionPopupView.swift; sourceTree = "<group>"; };
+		48E3FFF71E9C2EA900A8B140 /* EllieDestressedVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieDestressedVideoView.swift; sourceTree = "<group>"; };
+		48E3FFF81E9C2EA900A8B140 /* EllieMotivationVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieMotivationVideoView.swift; sourceTree = "<group>"; };
+		48E3FFF91E9C2EA900A8B140 /* ElliePopupYoutubeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ElliePopupYoutubeVideoViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		48E3FFFA1E9C2EA900A8B140 /* EllieRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieRoundedView.swift; sourceTree = "<group>"; };
+		48E3FFFB1E9C2EA900A8B140 /* EllieSectionPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSectionPreviewView.swift; sourceTree = "<group>"; };
+		48E3FFFC1E9C2EA900A8B140 /* EllieSleepyVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieSleepyVideoView.swift; sourceTree = "<group>"; };
+		48E3FFFD1E9C2EA900A8B140 /* EllieStudyTipsVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieStudyTipsVideoView.swift; sourceTree = "<group>"; };
+		48E3FFFE1E9C2EA900A8B140 /* EllieYoutubeVideoPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieYoutubeVideoPopupView.swift; sourceTree = "<group>"; };
+		48E3FFFF1E9C2EA900A8B140 /* EllieYoutubeVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieYoutubeVideoView.swift; sourceTree = "<group>"; };
+		48ED90271F5DB3BD003C6679 /* EllieBrowserWebsiteDownloadCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieBrowserWebsiteDownloadCollectionView.swift; sourceTree = "<group>"; };
+		48ED90291F5E43A3003C6679 /* EllieRoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieRoundedImageView.swift; sourceTree = "<group>"; };
+		48ED902B1F5E4822003C6679 /* EllieContentViewBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllieContentViewBanner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E3FFB21E9C282700A8B140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483169781F6768F100B1F4F3 /* FavIcon.framework in Frameworks */,
+				482544931F93C8CD00374A4E /* UIImageViewAlignedSwift.framework in Frameworks */,
+				48E3FFEE1E9C2C7C00A8B140 /* SimpleAnimation.framework in Frameworks */,
+				48E3FFEA1E9C2C7C00A8B140 /* EasyPeasy.framework in Frameworks */,
+				48E3FFEC1E9C2C7C00A8B140 /* M13Checkbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		481FA2751F91CEA7008321F5 /* Bookmark Models */ = {
+			isa = PBXGroup;
+			children = (
+				4834FE911F65D132003C1585 /* EllieBookmarkDataManager.swift */,
+				4834FE8D1F659844003C1585 /* EllieBookmarkModel.swift */,
+				4834FE8F1F6598F4003C1585 /* EllieBookmarkHeaderModel.swift */,
+				4834FE931F66FFC5003C1585 /* EllieBookmarkDataModel.swift */,
+			);
+			name = "Bookmark Models";
+			sourceTree = "<group>";
+		};
+		481FA2761F91CEF5008321F5 /* Website Models */ = {
+			isa = PBXGroup;
+			children = (
+				481FA2731F8FD7E5008321F5 /* EllieBrowserFileDataModel.swift */,
+				481FA2771F91CF5E008321F5 /* EllieBrowserFileDataManager.swift */,
+			);
+			name = "Website Models";
+			sourceTree = "<group>";
+		};
+		4823D18D1EA4863B0007174C /* Preview Views */ = {
+			isa = PBXGroup;
+			children = (
+				48E300331E9D506000A8B140 /* EllieHeaderSelectionPreviewView.swift */,
+				48E3FFFB1E9C2EA900A8B140 /* EllieSectionPreviewView.swift */,
+			);
+			name = "Preview Views";
+			sourceTree = "<group>";
+		};
+		482DCF621FD2673E00FBA7C2 /* Popup Views */ = {
+			isa = PBXGroup;
+			children = (
+				48E3FFF31E9C2EA900A8B140 /* EllieCloseablePopupView.swift */,
+			);
+			name = "Popup Views";
+			sourceTree = "<group>";
+		};
+		482DCF631FD31BC100FBA7C2 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				482DCF681FD3218D00FBA7C2 /* Interactable */,
+				482DCF671FD3217700FBA7C2 /* Scenery */,
+				482DCF641FD31C8300FBA7C2 /* EllieMainScreenViewController.swift */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+		482DCF671FD3217700FBA7C2 /* Scenery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scenery;
+			sourceTree = "<group>";
+		};
+		482DCF681FD3218D00FBA7C2 /* Interactable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactable;
+			sourceTree = "<group>";
+		};
+		482FAD4B1F14529C003FB393 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				48395DB11F6331690045B5A8 /* Dynamic Views */,
+				48948EEF1F3F972900F6473C /* WaveEffect */,
+				482FAD4C1F1452BE003FB393 /* EllieExperimentalViewController.swift */,
+			);
+			name = Experimental;
+			sourceTree = "<group>";
+		};
+		4831697B1F6892F300B1F4F3 /* Browser CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				48ED90271F5DB3BD003C6679 /* EllieBrowserWebsiteDownloadCollectionView.swift */,
+				48395DBA1F64BD720045B5A8 /* EllieBrowserBookmarkCollectionView.swift */,
+			);
+			name = "Browser CollectionViews";
+			sourceTree = "<group>";
+		};
+		4831697C1F68930400B1F4F3 /* Browser CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				48395DB81F648CDF0045B5A8 /* EllieBrowserBookmarkedCollectionViewCell.swift */,
+				4834FE8A1F658B17003C1585 /* EllieBrowserBookmarkHeaderCollectionViewCell.swift */,
+			);
+			name = "Browser CollectionViewCells";
+			sourceTree = "<group>";
+		};
+		4831697D1F68931600B1F4F3 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				48E246E11F5A174E00D1B994 /* EllieBrowserSearchView.swift */,
+				483E7EE31F5C477900435180 /* EllieBrowserBottomBar.swift */,
+				483E7EE51F5C6D4C00435180 /* EllieBrowserBottomTaskBar.swift */,
+			);
+			name = Bars;
+			sourceTree = "<group>";
+		};
+		4834FE8C1F65982A003C1585 /* Browser Models */ = {
+			isa = PBXGroup;
+			children = (
+				481FA2761F91CEF5008321F5 /* Website Models */,
+				481FA2751F91CEA7008321F5 /* Bookmark Models */,
+			);
+			name = "Browser Models";
+			sourceTree = "<group>";
+		};
+		48395DB11F6331690045B5A8 /* Dynamic Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Dynamic Views";
+			sourceTree = "<group>";
+		};
+		4868F5931F10768B00A53FC1 /* Interface Components */ = {
+			isa = PBXGroup;
+			children = (
+				482DCF631FD31BC100FBA7C2 /* Main Screen */,
+				482DCF621FD2673E00FBA7C2 /* Popup Views */,
+				48E246E31F5AF8CD00D1B994 /* Buttons */,
+				48E246DE1F5A0C3200D1B994 /* Banners */,
+				48E246D91F5A09F100D1B994 /* Broswer */,
+				4868F5951F1076C100A53FC1 /* Scrollable Modals */,
+			);
+			name = "Interface Components";
+			sourceTree = "<group>";
+		};
+		4868F5951F1076C100A53FC1 /* Scrollable Modals */ = {
+			isa = PBXGroup;
+			children = (
+				4868F5961F1076E000A53FC1 /* EllieScrollableModalView.swift */,
+				482FAD501F1658F0003FB393 /* EllieCreateSectionModalView.swift */,
+			);
+			name = "Scrollable Modals";
+			sourceTree = "<group>";
+		};
+		48854CD31E9EB8F700202E21 /* ToolBars */ = {
+			isa = PBXGroup;
+			children = (
+				48854CD41E9EB92800202E21 /* EllieFootbar.swift */,
+				48854CD81E9F008E00202E21 /* EllieTopbar.swift */,
+				48854CF31EA1606C00202E21 /* EllieDueDateBar.swift */,
+			);
+			name = ToolBars;
+			sourceTree = "<group>";
+		};
+		48854CDA1E9F343000202E21 /* Collection Views */ = {
+			isa = PBXGroup;
+			children = (
+				48854CDB1E9FD79800202E21 /* Section Slider */,
+			);
+			name = "Collection Views";
+			sourceTree = "<group>";
+		};
+		48854CDB1E9FD79800202E21 /* Section Slider */ = {
+			isa = PBXGroup;
+			children = (
+				48854CDC1E9FD7C700202E21 /* EllieSectionSliderView.swift */,
+				48854CF51EA1658400202E21 /* EllieSectionSelectionCollectionView.swift */,
+				48854CDE1E9FF53E00202E21 /* EllieMaterialCollectionView.swift */,
+				48854CE21E9FF94200202E21 /* EllieMaterialSelectionTableView.swift */,
+				48854CEE1EA14B1900202E21 /* EllieSectionSelectionTableView.swift */,
+			);
+			name = "Section Slider";
+			sourceTree = "<group>";
+		};
+		48854CF01EA159B300202E21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48854CF11EA159CD00202E21 /* EllieSectionRowDataModel.swift */,
+				4823D18B1EA484970007174C /* EllieSectionDataModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		48948EEF1F3F972900F6473C /* WaveEffect */ = {
+			isa = PBXGroup;
+			children = (
+				48948EF01F3F974C00F6473C /* EllieWaveView.swift */,
+			);
+			name = WaveEffect;
+			sourceTree = "<group>";
+		};
+		48E246D91F5A09F100D1B994 /* Broswer */ = {
+			isa = PBXGroup;
+			children = (
+				48C713091F6DECB400282B1A /* EllieBrowserBookmarkPreview.swift */,
+				4831697D1F68931600B1F4F3 /* Bars */,
+				4831697C1F68930400B1F4F3 /* Browser CollectionViewCells */,
+				4831697B1F6892F300B1F4F3 /* Browser CollectionViews */,
+				4834FE8C1F65982A003C1585 /* Browser Models */,
+				48E246DA1F5A0A2A00D1B994 /* EllieBrowserViewController.swift */,
+				483169751F67614200B1F4F3 /* EllieBrowserUtilities.swift */,
+				4831697E1F68946E00B1F4F3 /* EllieCreateBookmarkPopupView.swift */,
+				481FA2711F8EB40A008321F5 /* EllieWebsitePreviewViewController.swift */,
+			);
+			name = Broswer;
+			sourceTree = "<group>";
+		};
+		48E246DE1F5A0C3200D1B994 /* Banners */ = {
+			isa = PBXGroup;
+			children = (
+				48E246DC1F5A0B5300D1B994 /* EllieViewControllerBanner.swift */,
+				48E246DF1F5A0C4600D1B994 /* EllieViewControllerClosableBanner.swift */,
+				48ED902B1F5E4822003C6679 /* EllieContentViewBanner.swift */,
+			);
+			name = Banners;
+			sourceTree = "<group>";
+		};
+		48E246E31F5AF8CD00D1B994 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		48E3001B1E9C2EDC00A8B140 /* Youtube Video View */ = {
+			isa = PBXGroup;
+			children = (
+				48E3003B1E9DA33B00A8B140 /* Full Screen Views */,
+				48E3FFFE1E9C2EA900A8B140 /* EllieYoutubeVideoPopupView.swift */,
+				48E3FFFF1E9C2EA900A8B140 /* EllieYoutubeVideoView.swift */,
+			);
+			name = "Youtube Video View";
+			sourceTree = "<group>";
+		};
+		48E3001C1E9C2F1300A8B140 /* Popup View */ = {
+			isa = PBXGroup;
+			children = (
+				48E300361E9D8BA200A8B140 /* Section Headers */,
+				48E300351E9D8B9900A8B140 /* Sections */,
+				48E300051E9C2EA900A8B140 /* WidePopOutMenu.swift */,
+			);
+			name = "Popup View";
+			sourceTree = "<group>";
+		};
+		48E3001D1E9C2F2100A8B140 /* Styled Views */ = {
+			isa = PBXGroup;
+			children = (
+				48854CD61E9EBD8600202E21 /* EllieCircleUIButton.swift */,
+				48E300061E9C2EA900A8B140 /* WideRoundedView.swift */,
+				48E3FFF41E9C2EA900A8B140 /* EllieCornerRoundedUIButton.swift */,
+				48E3FFFA1E9C2EA900A8B140 /* EllieRoundedView.swift */,
+				48854CE81EA069D900202E21 /* EllieImageButton.swift */,
+				48ED90291F5E43A3003C6679 /* EllieRoundedImageView.swift */,
+			);
+			name = "Styled Views";
+			sourceTree = "<group>";
+		};
+		48E3001E1E9C2F6400A8B140 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48E300041E9C2EA900A8B140 /* EllieNavigationViewController.swift */,
+				48E3FFF91E9C2EA900A8B140 /* ElliePopupYoutubeVideoViewController.swift */,
+				48E300001E9C2EA900A8B140 /* HomeViewController.swift */,
+				48854CE41EA0293800202E21 /* EllieExpandedMaterialSelectionViewController.swift */,
+				48854CE61EA03A5D00202E21 /* ExampleViewController.swift */,
+				48854CEA1EA14AC600202E21 /* EllieSectionViewController.swift */,
+				48854CEC1EA14AD500202E21 /* EllieExpandedSectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		48E3001F1E9C2F6E00A8B140 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				48E300011E9C2EA900A8B140 /* WideExtensions.swift */,
+				48E300021E9C2EA900A8B140 /* WideFonts.swift */,
+				48E300031E9C2EA900A8B140 /* WideImages.swift */,
+				48854CE01E9FF56300202E21 /* EllieConstants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		48E300351E9D8B9900A8B140 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				48E300311E9C63A800A8B140 /* EllieSectionHeaderSelectionView.swift */,
+				48E3FFF61E9C2EA900A8B140 /* EllieCreateSectionPopupView.swift */,
+				48E300371E9D93D800A8B140 /* EllieSectionCreateFirstPage.swift */,
+				48E300391E9D93EC00A8B140 /* EllieSectionCreationSecondPage.swift */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		48E300361E9D8BA200A8B140 /* Section Headers */ = {
+			isa = PBXGroup;
+			children = (
+				48E3FFF51E9C2EA900A8B140 /* EllieCreateHeaderPopupView.swift */,
+			);
+			name = "Section Headers";
+			sourceTree = "<group>";
+		};
+		48E3003B1E9DA33B00A8B140 /* Full Screen Views */ = {
+			isa = PBXGroup;
+			children = (
+				48E3FFF71E9C2EA900A8B140 /* EllieDestressedVideoView.swift */,
+				48E3FFF81E9C2EA900A8B140 /* EllieMotivationVideoView.swift */,
+				48E3FFFC1E9C2EA900A8B140 /* EllieSleepyVideoView.swift */,
+				48E3FFFD1E9C2EA900A8B140 /* EllieStudyTipsVideoView.swift */,
+			);
+			name = "Full Screen Views";
+			sourceTree = "<group>";
+		};
+		48E3FFAC1E9C282700A8B140 = {
+			isa = PBXGroup;
+			children = (
+				48E3FFF21E9C2CC200A8B140 /* Frameworks */,
+				48E3FFB71E9C282700A8B140 /* Ellie */,
+				48E3FFB61E9C282700A8B140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48E3FFB61E9C282700A8B140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E3FFB51E9C282700A8B140 /* Ellie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48E3FFB71E9C282700A8B140 /* Ellie */ = {
+			isa = PBXGroup;
+			children = (
+				482FAD4B1F14529C003FB393 /* Experimental */,
+				4868F5931F10768B00A53FC1 /* Interface Components */,
+				4823D18D1EA4863B0007174C /* Preview Views */,
+				48854CF01EA159B300202E21 /* Models */,
+				48854CDA1E9F343000202E21 /* Collection Views */,
+				48854CD31E9EB8F700202E21 /* ToolBars */,
+				48E3001F1E9C2F6E00A8B140 /* Utilities */,
+				48E3001E1E9C2F6400A8B140 /* Controllers */,
+				48E3001D1E9C2F2100A8B140 /* Styled Views */,
+				48E3001C1E9C2F1300A8B140 /* Popup View */,
+				48E3001B1E9C2EDC00A8B140 /* Youtube Video View */,
+				48E3FFCA1E9C287200A8B140 /* Fonts */,
+				48E3FFB81E9C282700A8B140 /* AppDelegate.swift */,
+				48E3FFBF1E9C282700A8B140 /* Assets.xcassets */,
+				48E3FFC11E9C282700A8B140 /* LaunchScreen.storyboard */,
+				48E3FFC41E9C282700A8B140 /* Info.plist */,
+			);
+			path = Ellie;
+			sourceTree = "<group>";
+		};
+		48E3FFCA1E9C287200A8B140 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48E3FFD91E9C294200A8B140 /* GlacialIndifference-Bold.otf */,
+				48E3FFDA1E9C294200A8B140 /* GlacialIndifference-Regular.otf */,
+				48E3FFDB1E9C294200A8B140 /* JosefinSans-Regular.ttf */,
+				48E3FFDC1E9C294200A8B140 /* Montserrat-Bold.otf */,
+				48E3FFDD1E9C294200A8B140 /* Montserrat-Regular.otf */,
+				48E3FFDE1E9C294200A8B140 /* Raleway-Medium.ttf */,
+				48E3FFDF1E9C294200A8B140 /* Raleway-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		48E3FFF21E9C2CC200A8B140 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				482544921F93C8CC00374A4E /* UIImageViewAlignedSwift.framework */,
+				483169771F6768F100B1F4F3 /* FavIcon.framework */,
+				48E3FFE71E9C2C7C00A8B140 /* EasyPeasy.framework */,
+				48E3FFE81E9C2C7C00A8B140 /* M13Checkbox.framework */,
+				48E3FFE91E9C2C7C00A8B140 /* SimpleAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E3FFB41E9C282700A8B140 /* Ellie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E3FFC71E9C282700A8B140 /* Build configuration list for PBXNativeTarget "Ellie" */;
+			buildPhases = (
+				48E3FFB11E9C282700A8B140 /* Sources */,
+				48E3FFB21E9C282700A8B140 /* Frameworks */,
+				48E3FFB31E9C282700A8B140 /* Resources */,
+				48E3FFF01E9C2C7C00A8B140 /* Embed Frameworks */,
+				48E3FFF11E9C2C8200A8B140 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ellie;
+			productName = Ellie;
+			productReference = 48E3FFB51E9C282700A8B140 /* Ellie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E3FFAD1E9C282700A8B140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MarBasava;
+				TargetAttributes = {
+					48E3FFB41E9C282700A8B140 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 257X34ZZF8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 48E3FFB01E9C282700A8B140 /* Build configuration list for PBXProject "Ellie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48E3FFAC1E9C282700A8B140;
+			productRefGroup = 48E3FFB61E9C282700A8B140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E3FFB41E9C282700A8B140 /* Ellie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E3FFB31E9C282700A8B140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E3FFE01E9C294200A8B140 /* GlacialIndifference-Bold.otf in Resources */,
+				48E3FFE61E9C294200A8B140 /* Raleway-Regular.ttf in Resources */,
+				48E3FFE21E9C294200A8B140 /* JosefinSans-Regular.ttf in Resources */,
+				48E3FFE31E9C294200A8B140 /* Montserrat-Bold.otf in Resources */,
+				48E3FFE41E9C294200A8B140 /* Montserrat-Regular.otf in Resources */,
+				48E3FFE51E9C294200A8B140 /* Raleway-Medium.ttf in Resources */,
+				48E3FFC31E9C282700A8B140 /* LaunchScreen.storyboard in Resources */,
+				48E3FFE11E9C294200A8B140 /* GlacialIndifference-Regular.otf in Resources */,
+				48E3FFC01E9C282700A8B140 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E3FFF11E9C2C8200A8B140 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/EasyPeasy.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SimpleAnimation.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/M13Checkbox.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FavIcon.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/UIImageViewAlignedSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E3FFB11E9C282700A8B140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E3000C1E9C2EA900A8B140 /* EllieMotivationVideoView.swift in Sources */,
+				48854CF61EA1658400202E21 /* EllieSectionSelectionCollectionView.swift in Sources */,
+				4823D18C1EA484970007174C /* EllieSectionDataModel.swift in Sources */,
+				483E7EE41F5C477900435180 /* EllieBrowserBottomBar.swift in Sources */,
+				48E3000B1E9C2EA900A8B140 /* EllieDestressedVideoView.swift in Sources */,
+				48854CE71EA03A5D00202E21 /* ExampleViewController.swift in Sources */,
+				4834FE901F6598F4003C1585 /* EllieBookmarkHeaderModel.swift in Sources */,
+				48E246DB1F5A0A2A00D1B994 /* EllieBrowserViewController.swift in Sources */,
+				48854CE91EA069D900202E21 /* EllieImageButton.swift in Sources */,
+				48E300091E9C2EA900A8B140 /* EllieCreateHeaderPopupView.swift in Sources */,
+				48E300341E9D506000A8B140 /* EllieHeaderSelectionPreviewView.swift in Sources */,
+				48C7130A1F6DECB400282B1A /* EllieBrowserBookmarkPreview.swift in Sources */,
+				48E300101E9C2EA900A8B140 /* EllieSleepyVideoView.swift in Sources */,
+				48395DBB1F64BD720045B5A8 /* EllieBrowserBookmarkCollectionView.swift in Sources */,
+				48E300121E9C2EA900A8B140 /* EllieYoutubeVideoPopupView.swift in Sources */,
+				48854CDF1E9FF53E00202E21 /* EllieMaterialCollectionView.swift in Sources */,
+				481FA2741F8FD7E5008321F5 /* EllieBrowserFileDataModel.swift in Sources */,
+				4834FE8B1F658B17003C1585 /* EllieBrowserBookmarkHeaderCollectionViewCell.swift in Sources */,
+				48854CD91E9F008F00202E21 /* EllieTopbar.swift in Sources */,
+				48854CDD1E9FD7C700202E21 /* EllieSectionSliderView.swift in Sources */,
+				48854CE51EA0293800202E21 /* EllieExpandedMaterialSelectionViewController.swift in Sources */,
+				48ED902C1F5E4822003C6679 /* EllieContentViewBanner.swift in Sources */,
+				48E300381E9D93D800A8B140 /* EllieSectionCreateFirstPage.swift in Sources */,
+				48948EF11F3F974C00F6473C /* EllieWaveView.swift in Sources */,
+				48E300141E9C2EA900A8B140 /* HomeViewController.swift in Sources */,
+				48E3000F1E9C2EA900A8B140 /* EllieSectionPreviewView.swift in Sources */,
+				48854CF21EA159CD00202E21 /* EllieSectionRowDataModel.swift in Sources */,
+				48854CD71E9EBD8600202E21 /* EllieCircleUIButton.swift in Sources */,
+				481FA2721F8EB40A008321F5 /* EllieWebsitePreviewViewController.swift in Sources */,
+				48E300161E9C2EA900A8B140 /* WideFonts.swift in Sources */,
+				48E3000E1E9C2EA900A8B140 /* EllieRoundedView.swift in Sources */,
+				48E300151E9C2EA900A8B140 /* WideExtensions.swift in Sources */,
+				48854CE11E9FF56300202E21 /* EllieConstants.swift in Sources */,
+				48ED902A1F5E43A3003C6679 /* EllieRoundedImageView.swift in Sources */,
+				48854CE31E9FF94200202E21 /* EllieMaterialSelectionTableView.swift in Sources */,
+				48E246DD1F5A0B5300D1B994 /* EllieViewControllerBanner.swift in Sources */,
+				482DCF651FD31C8300FBA7C2 /* EllieMainScreenViewController.swift in Sources */,
+				48E300181E9C2EA900A8B140 /* EllieNavigationViewController.swift in Sources */,
+				48E300171E9C2EA900A8B140 /* WideImages.swift in Sources */,
+				48854CEB1EA14AC600202E21 /* EllieSectionViewController.swift in Sources */,
+				48854CED1EA14AD500202E21 /* EllieExpandedSectionViewController.swift in Sources */,
+				4831697F1F68946E00B1F4F3 /* EllieCreateBookmarkPopupView.swift in Sources */,
+				4834FE941F66FFC5003C1585 /* EllieBookmarkDataModel.swift in Sources */,
+				48E3003A1E9D93EC00A8B140 /* EllieSectionCreationSecondPage.swift in Sources */,
+				48E300321E9C63A800A8B140 /* EllieSectionHeaderSelectionView.swift in Sources */,
+				4834FE8E1F659844003C1585 /* EllieBookmarkModel.swift in Sources */,
+				48E300191E9C2EA900A8B140 /* WidePopOutMenu.swift in Sources */,
+				48E3000A1E9C2EA900A8B140 /* EllieCreateSectionPopupView.swift in Sources */,
+				48E300131E9C2EA900A8B140 /* EllieYoutubeVideoView.swift in Sources */,
+				48854CF41EA1606C00202E21 /* EllieDueDateBar.swift in Sources */,
+				48E300071E9C2EA900A8B140 /* EllieCloseablePopupView.swift in Sources */,
+				48ED90281F5DB3BD003C6679 /* EllieBrowserWebsiteDownloadCollectionView.swift in Sources */,
+				48854CD51E9EB92800202E21 /* EllieFootbar.swift in Sources */,
+				483169761F67614200B1F4F3 /* EllieBrowserUtilities.swift in Sources */,
+				48E246E21F5A174E00D1B994 /* EllieBrowserSearchView.swift in Sources */,
+				482FAD4D1F1452BE003FB393 /* EllieExperimentalViewController.swift in Sources */,
+				48E3001A1E9C2EA900A8B140 /* WideRoundedView.swift in Sources */,
+				48E3FFB91E9C282700A8B140 /* AppDelegate.swift in Sources */,
+				48E246E01F5A0C4600D1B994 /* EllieViewControllerClosableBanner.swift in Sources */,
+				48854CEF1EA14B1900202E21 /* EllieSectionSelectionTableView.swift in Sources */,
+				481FA2781F91CF5E008321F5 /* EllieBrowserFileDataManager.swift in Sources */,
+				483E7EE61F5C6D4C00435180 /* EllieBrowserBottomTaskBar.swift in Sources */,
+				4834FE921F65D132003C1585 /* EllieBookmarkDataManager.swift in Sources */,
+				48E300081E9C2EA900A8B140 /* EllieCornerRoundedUIButton.swift in Sources */,
+				48E300111E9C2EA900A8B140 /* EllieStudyTipsVideoView.swift in Sources */,
+				48395DB91F648CDF0045B5A8 /* EllieBrowserBookmarkedCollectionViewCell.swift in Sources */,
+				482FAD511F1658F0003FB393 /* EllieCreateSectionModalView.swift in Sources */,
+				48E3000D1E9C2EA900A8B140 /* ElliePopupYoutubeVideoViewController.swift in Sources */,
+				4868F5971F1076E000A53FC1 /* EllieScrollableModalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48E3FFC11E9C282700A8B140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E3FFC21E9C282700A8B140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48E3FFC51E9C282700A8B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48E3FFC61E9C282700A8B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E3FFC81E9C282700A8B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 257X34ZZF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Ellie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.9978.Ellie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48E3FFC91E9C282700A8B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 257X34ZZF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Ellie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.9978.Ellie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48E3FFB01E9C282700A8B140 /* Build configuration list for PBXProject "Ellie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E3FFC51E9C282700A8B140 /* Debug */,
+				48E3FFC61E9C282700A8B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E3FFC71E9C282700A8B140 /* Build configuration list for PBXNativeTarget "Ellie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E3FFC81E9C282700A8B140 /* Debug */,
+				48E3FFC91E9C282700A8B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E3FFAD1E9C282700A8B140 /* Project object */;
+}

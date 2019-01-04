@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 9.0\nBuild version 9A235",
+  "commitish" : "3.2.1",
+  "iOS" : [
+    {
+      "hash" : "4fa06b011e55e2369eecfff5e11e9d1b6acac23d41001cf41a7e6f06fb8928d3",
+      "name" : "M13Checkbox"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 9.0\nBuild version 9A235",
+  "commitish" : "0.3.2",
+  "iOS" : [
+    {
+      "hash" : "dde263eeada67c6c5bd607bb7b60211188a4f6f54b7de1464ec3a4146ba844b3",
+      "name" : "SimpleAnimation"
+    }
+  ]
+}

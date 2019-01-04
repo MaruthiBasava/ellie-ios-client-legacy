@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 9.0\nBuild version 9A235",
+  "commitish" : "0.5.0",
+  "iOS" : [
+    {
+      "hash" : "cb710ea421eedcdea1b91ce6a7a8e7eb0aa32429937a5cddeb106d6d2e653842",
+      "name" : "UIImageViewAlignedSwift"
+    }
+  ]
+}
